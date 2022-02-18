@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins";
+
+}
+section {
+    width: 1300px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    
+    flex-wrap: wrap;
+}
+section .image {
+    flex: 50%;
+    position: relative;
+    text-align: center;
+    
+}
+.image img {
+    height: 610px;
+    width: 520px;
+}
+section .text  {
+    flex: 50%;
+    width: 500px;
+    /* margin-left: 100px; */
+}
+.caption {
+
+    width: 380px;
+    height: 250px;
+    background-color: goldenrod;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.caption h3 {
+    text-align: left;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 20px 36px;
+}
+mark {
+    display: inline-block;
+    font-size: 44px;
+    letter-spacing: 2px;
+    background-color: goldenrod;
+    text-align: left;
+    padding: 3px 12px;
+    font-weight: bolder;
+    margin: 40px 0px;
+
+}
+.text-1 , .text-2 {
+    width: 500px;
+}
+.text-1 p , .text-2 p{
+    font: 14px;
+    font-weight: 300;
+
+}
+@media screen and (max-width:768px) {
+    section  {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .text-1 , .text-2 {
+        width: 400px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+    .image img {
+        width: 400px;
+    }
+}
+@media screen and (min-width:768px) {
+    section  {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .text-1 , .text-2 {
+        width: 400px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+    .image img {
+        width: 400px;
+    }
+}
+@media screen and (min-width: 990px) {
+    section {
+        width: 880px;
+    }
+    .text-1 , .text-2 {
+        width: 600px;
+        text-align: justify;
+        margin: 0 auto;
+    }
+    .image img {
+        width: 600px;
+    }
+}
+@media screen and (min-width: 1300px ) {
+    section {
+        width: 1300px;
+        margin: 60px auto;
+        
+    }
+    
+}

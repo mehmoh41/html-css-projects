@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,400;1,500&family=Rowdies:wght@300;400;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #eee;
+    font-family: 'Poppins', sans-serif;
+
+}
+section {
+    width: 1300px;
+    margin: 100px auto;
+    position: relative;
+}
+.about-image {
+    width: 49.5%;
+    display: inline-block;
+}
+.about-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    text-align: end;
+}
+.about-text {
+    width: 48.5%;
+    float: right;
+    margin-top: -20px;
+}
+.about-text h4{
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+.about-text h1 {
+    width: 350px;
+    font-weight: bolder;
+    font-size: 42px;
+    line-height: 1.1;
+    font-weight: bolder;
+}
+.about-text button {
+    padding: 12px 18px;
+    margin-top: 12px;
+    border: none;
+    background-color: #BB9F06;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.about-text button:hover {
+    background-color: #ECA400;
+    transition: ease-in-out 0.7s;
+    cursor: pointer;
+}
+.items {
+    position: absolute;
+    width: 1000px;
+    margin: 38px auto;
+    display: flex;
+    /* padding: 8px; */
+    background-color: #ECD444;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.items .item {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 32px 0;
+    text-align: center;
+}
+.items p {
+    font-size: 14px;
+    
+}
+.item h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+.item1 {
+    background-color: #96BDC6;
+    text-align: center;
+}
+.item2 {
+    background-color: #81968F;
+    
+    text-align: center;
+}
+.item3 {
+    background-color: #CFB9A5;
+    text-align: center;
+}
+.item4 {
+    background-color: #E8CCBF;
+    text-align: center;
+}
+.item button {
+    padding: 9px 16px;
+    background-color: #BB9F06;
+    
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+}
+.item button:hover {
+    background-color: #ECA400;
+    transition: ease-in-out 0.7s;
+    cursor: pointer;
+}
+.item p {
+    font-weight: lighter;
+}
+.image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 16px;
+    margin: 0 auto;
+}
